@@ -5,16 +5,14 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }   
 html{
-    background-color: white;
+    background-color: aliceblue;
 }
 body{
     width:95%;
     margin: 0 auto;
-    background-color: white;
 }
 header{
     padding: 10px 0;
-    background-color: white;
 }
 nav{
     width: 100%;
@@ -67,7 +65,7 @@ header p{
   }
 header img{
     display: inline-block;
-    width: 15%;
+    width: 110px;
     padding-right:10px ;
   }
 
@@ -89,8 +87,9 @@ section.column{
 }
 .container{
     display: flex;
+    /* padding:10px 10px; */
+    padding-bottom: 10px;
 }
-
 
 
 .column {
@@ -109,7 +108,7 @@ section.column{
 section.column{
     float:right;
     width:35%;
-    padding-top:20px
+    padding-top:10px
 }
 
 .box h2{
@@ -131,7 +130,7 @@ section.column{
 .box ul li{
     list-style:none;
     float: right;
-    padding:12.5px 10px;
+    padding:14px 10px;
     width:100%;
     background:#fff;
     box-shadow: 0 5px 25px rgba(0,0,0,.1);
