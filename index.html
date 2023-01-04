@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>N MOLE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
         <ul>
-            <a href="#"><li>Home</li></a>
+            <a href="#Home"><li>Home</li></a>
             <a href="#"><li>Blog</li></a>
-            <a href="#"><li>Our Projects</li></a>
+            <a href="#HX"><li>Our Projects</li></a>
             <a href="#"><li>Reviews</li></a>
             <a href="#"><li>Honorable mentions</li></a>
         </ul>
@@ -22,19 +25,18 @@
     <div class="row">
         <header class="column">
             <div class="container">
-                <img src="NMOLE LOGO.png" alt="N MOLE logo">
+                <img src="NMOLE LOGO.png" alt="N MOLE logo" id="Home">
                 <p>
                     N MOLE is a student-based non-profitable organization
                     founded in 2016 as a chemical and mechanical engineering technical team
                     under the supervision of the scientific committee of the
                     Student Union of the Faculty of Engineering Alexandria University 
-                    
                 </p>
             </div>
-            <video width="100%" height="100%" controls="controls">
-                <source src="video1.mp4"
-                type="video/mp4">
-            </video>
+                <video width="100%" height="80%" controls  poster="poster.jpg">
+                    <source src="video1.mp4"
+                    type="video/mp4">
+                </video>
         </header>
         <!-- <section>
             
@@ -43,15 +45,15 @@
             <div class="box">
                 <h2>N MOLE Projects</h2>
                 <ul>
-                    <li><span></span>Shell and Tube Heat Exchanger</li>
-                    <li><span></span>Liquid-Liquid Extraction Packed Column</li>
-                    <li><span></span>Carbon Filter</li>
-                    <li><span></span>Ion Exchanger</li>
-                    <li><span></span>Cooling Tower</li>
-                    <li><span></span>Liquid-Liquid Extraction Sieve Plate Column</li>
-                    <li><span></span>Air-Cooled Heat Exchanger</li>
-                    <li><span></span>Ammonia Gas Scrubber</li>
-                    <li><span></span>Biodiesel Batch Reator</li>
+                    <a href="#HX"><li>Shell and Tube Heat Exchanger</li></a>
+                    <a href="#LLE1"><li>Liquid-Liquid Extraction Packed Column</li></a>
+                    <a href="#CF"><li>Carbon Filter</li></a>
+                    <a href="#IE"><li>Ion Exchanger</li></a>
+                    <a href="#CT"><li>Cooling Tower</li></a>
+                    <a href="#LLE2"><li>Liquid-Liquid Extraction Sieve Plate Column</li></a>
+                    <a href="#ACHX"><li>Air-Cooled Heat Exchanger</li></a>
+                    <a href="#AGS"><li>Ammonia Gas Scrubber</li></a>
+                    <a href="#BBR"><li>Biodiesel Batch Reator</li></a>
                 </ul>
             </div>
                 
@@ -59,9 +61,196 @@
         </section>
     </div>
     <section>
-        <h3>Our First Project: Shell and Tube Heat Exchanger 2016</h3>
+        <h3 id="HX">Our First Project: Shell and Tube Heat Exchanger 2016</h3>
         <div class="row">
-            <div class="column"><p>
+            <div class="column1">
+                <img id='back' src="STHX_back.jpg" alt="">
+                <p>
+                Back in 2016, N MOLE's first project was Shell and Tube Heat Exchanger.
+                We managed to design, fabricate, and operate a real industrial equipment for the first time.
+                After suffering a lot, we could find our way out to do something that completely inprobable to be achieved by students only.
+            </p></div>
+            <div class="column2"></div>
+
+        </div>
+        
+    </section>
+    <img id="sthx_win" src="winner_sthx.jpg" width="100%" height="100%" alt="">
+
+        <button type="button" class="button-19" role="button"
+            onclick="show_sthx()" id="show_sthx_win">
+            Show Winner Image
+        </button>
+
+        <button type="button" class="button-19" role="button"
+            onclick="hide_sthx()" id="hide_sthx_win">
+            Hide Winner Image
+        </button>
+    <br>
+    <br>
+    <section>
+        <h3 id="LLE1">Liquid-Liquid Extraction Packed Column</h3>
+        <div class="row">
+            <div class="column1">
+                <img id="back" src="LLE1_back.jpg" alt="">
+                <p>
+                Back in 2016, N MOLE's first project was Shell and Tube Heat Exchanger.
+                We managed to design, fabricate, and operate a real industrial equipment for the first time.
+                After suffering a lot, we could find our way out to do something that completely inprobable to be achieved by students only.
+            </p></div>
+            <div class="column2"></div>
+
+        </div>
+        
+    </section>
+    <section>
+        <h3 id="CF">Carbon Filter</h3>
+        <div class="row">
+            <div class="column1">
+                <img id="back" src="CF_back.jpg" alt="">
+                <p>
+                Back in 2016, N MOLE's first project was Shell and Tube Heat Exchanger.
+                We managed to design, fabricate, and operate a real industrial equipment for the first time.
+                After suffering a lot, we could find our way out to do something that completely inprobable to be achieved by students only.
+            </p></div>
+            <div class="column2"></div>
+
+        </div>
+        
+    </section>
+    <section>
+        <h3 id="IE">Ion Exchanger</h3>
+        <div class="row">
+            <div class="column1">
+                <img id="back" src="IE_back.jpg" alt="">
+                <p>
+                Back in 2016, N MOLE's first project was Shell and Tube Heat Exchanger.
+                We managed to design, fabricate, and operate a real industrial equipment for the first time.
+                After suffering a lot, we could find our way out to do something that completely inprobable to be achieved by students only.
+            </p></div>
+            <div class="column2"></div>
+
+        </div>
+        
+    </section>
+    <section>
+        <h3 id="CT">MECA Branch: Cooling Tower</h3>
+        <div class="row">
+            <div class="column1">
+                <img id="back" src="CT_back.jpg" alt="">
+                <p>
+                Back in 2016, N MOLE's first project was Shell and Tube Heat Exchanger.
+                We managed to design, fabricate, and operate a real industrial equipment for the first time.
+                After suffering a lot, we could find our way out to do something that completely inprobable to be achieved by students only.
+            </p></div>
+            <div class="column2"></div>
+
+        </div>
+        
+    </section>
+    <section>
+        <h3 id="LLE2">Liquid-Liquid Extraction Sieve Plate Column - National Competition</h3>
+        <div class="row">
+            <div class="column1">
+                <img id="back" src="LLE2_back.jpg" alt="">
+                <p>
+                One of our greatest projects ever!
+                    Liquid-Liquid Extraction 2 (LLE 2), the project was like a part two to our previous project LLE packed column.
+                    The project was a huge national competition between chemical engineering students from Alexandria, Cairo, and Minia Universities.
+                    <br><b>Case Study</b><br>
+                    Each national team, Alexandria, Cairo, and Minia Team, was required to do its own research to figure out how to
+                    <b>design, fabricate, and operate</b> a LLE sieve plate column that:<br>
+                    Separates gasoline from a mixture of both gasoline and ethanol<br>
+                    Maximum degree of separation must be achieved<br>
+                    Allowable budget must not exceed 1500 L.E.<br>
+                    Organizing tasks and effective communication within in the team is highly considered<br>
+                    <b>A final report and presentation about the entire project are submitted and performed by each team to N MOLE's academic committee head</b><br>
+                    <i>Finally, the winner was selected. It was <b>MINIA TEAM 🔥🔥🔥</b></i>
+                </p></div>
+            <div class="column2">
+                <div>
+                    <img class='one' src="LLE2_1.jpg" width='300px' alt="">
+                    <img class='one' src="LLE2_2.jpg" width='300px' alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h3 id="ACHX">MECA Branch: Air-Cooled Heat Exchanger</h3>
+        <div class="row">
+            <div class="column1">
+                <img id="back" src="ACH_back.jpg" alt="">
+                <p>
+                    With another exciting and famous thermal equipment, our project "Air-Cooled Heat Exchanger" was finally launched in 2021 for mechanical engineering students.
+                    The implementation of this project was a masterpiece beginning from the high spirit of each of the two participating teams till the end of the project with the well-organized and spectacular presentations.
+                    <br>The project was special again with the extensive use of engineering software like <b>SolidWorks, COMSOL Mutliphysics, and MATLAB.</b>
+                    Each was required to find various design aspects including thermal, mechanical, and pressure drop design considerations.
+                    With every concept digested by a team's subgroup, it was presented to rest of the team in a time-efficient manner. 
+                    <br><b>Case Study</b><br>
+                    The <b>design, fabrication, and operation</b> of an Air-Cooled HX was due with the following success criteria:<br>
+                    Cooling 50 liters of hot water from 75 celisuis to room temperature within only 4 mins of operation<br>
+                    Allowable budget must not exceed 2000 L.E.<br>
+                    The quality of implementation and team collaboration is the most important aspect for each team's score<br>
+                    <b>A final report and presentation about the entire project are submitted and performed by each team to N MOLE's academic committee head</b><br>
+                    <i>Finally, the winner was selected. It was <b>Team 1 🎉🎉</b></i>
+                    </p>
+            </div>
+            <div class="column2">
+            </div>
+            <div>
+                <img class="one" src="Aircooler2.png" width="250px" alt="">
+                <!-- <img class="one"  src="Aircooler1.png" width="300px" alt=""> -->
+                <img  class="one" src="AcHX.jpg" width="350px" alt="">
+            </div>
+
+        </div>
+        <img id="achx_win" src="winner_ACHX.jpg" width="100%" alt="">
+        <button type="button" class="button-19" role="button"
+            onclick="show_achx()" id="show_achx_win">
+            Show Winner Image
+        </button>
+
+        <button type="button" class="button-19" role="button"
+            onclick="hide_achx()" id="hide_achx_win">
+            Hide Winner Image
+        </button>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h3 id="AGS">Ammonia Gas Scrubber</h3>
+        <div class="row">
+            <div class="column1">
+                <img id="back" src="AGS_back.jpg" alt="">
+                <p>
+                Back in 2016, N MOLE's first project was Shell and Tube Heat Exchanger.
+                We managed to design, fabricate, and operate a real industrial equipment for the first time.
+                After suffering a lot, we could find our way out to do something that completely inprobable to be achieved by students only.
+            </p></div>
+            <div class="column2"></div>
+
+        </div>
+        <img id='ags_win' src="winner_AGS.jpg" width="100%" height="100%" alt="">
+        <button type="button" class="button-19" role="button"
+            onclick="show_ags()" id="show_ags_win">
+            Show Winner Image
+        </button>
+
+        <button type="button" class="button-19" role="button"
+            onclick="hide_ags()" id="hide_ags_win">
+            Hide Winner Image
+        </button>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h3 id="BBR">Biodiesel Batch Reactor</h3>
+        <div class="row">
+            <div class="column1">
+                <img id="back" src="Bio_back.jpg" alt="">
+                <p>
                 Back in 2016, N MOLE's first project was Shell and Tube Heat Exchanger.
                 We managed to design, fabricate, and operate a real industrial equipment for the first time.
                 After suffering a lot, we could find our way out to do something that completely inprobable to be achieved by students only.
@@ -70,9 +259,119 @@
 
         </div>
         
+        <img id="bio_win" src="winner_Bio.jpg" width="100%" height="100%" alt="">
+
+        <button type="button" class="button-19" role="button"
+            onclick="show_bio()" id="show_bio_win">
+            Show Winner Image
+        </button>
+
+        <button type="button" class="button-19" role="button"
+            onclick="hide_bio()" id="hide_bio_win">
+            Hide Winner Image
+        </button>
     </section>
     <!-- <video src="video1"></video> -->
+    <script>
+
+        
+
+
+        function show_sthx() {
+ 
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('sthx_win')
+                    .style.display = "block";
+
+            document.getElementById('hide_sthx_win')
+                    .style.display = "block";
+ 
+            document.getElementById('show_sthx_win')
+                    .style.display = "none";
+        }
+        function hide_sthx() {
+            document.getElementById('sthx_win')
+                    .style.display = "none";
+
+            document.getElementById('hide_sthx_win')
+                    .style.display = "none";
+ 
+            document.getElementById('show_sthx_win')
+                    .style.display = "block";
+        }
+        function show_achx() {
+ 
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('achx_win')
+                    .style.display = "block";
+
+            document.getElementById('hide_achx_win')
+                    .style.display = "block";
+ 
+            document.getElementById('show_achx_win')
+                    .style.display = "none";
+        }
+        function hide_achx() {
+            document.getElementById('achx_win')
+                    .style.display = "none";
+
+            document.getElementById('hide_achx_win')
+                    .style.display = "none";
+ 
+            document.getElementById('show_achx_win')
+                    .style.display = "block";
+        }
+        function show_ags() {
+ 
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('ags_win')
+                    .style.display = "block";
+
+            document.getElementById('hide_ags_win')
+                    .style.display = "block";
+ 
+            document.getElementById('show_ags_win')
+                    .style.display = "none";
+        }
+        function hide_ags() {
+            document.getElementById('ags_win')
+                    .style.display = "none";
+
+            document.getElementById('hide_ags_win')
+                    .style.display = "none";
+ 
+            document.getElementById('show_ags_win')
+                    .style.display = "block";
+        }
+        function show_bio() {
+ 
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('bio_win')
+                    .style.display = "block";
+
+            document.getElementById('hide_bio_win')
+                    .style.display = "block";
+ 
+            document.getElementById('show_bio_win')
+                    .style.display = "none";
+        }
+        function hide_bio() {
+            document.getElementById('bio_win')
+                    .style.display = "none";
+
+            document.getElementById('hide_bio_win')
+                    .style.display = "none";
+ 
+            document.getElementById('show_bio_win')
+                    .style.display = "block";
+        }
+    </script>
 </body>
+
 </html>
 
 
