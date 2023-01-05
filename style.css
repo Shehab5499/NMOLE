@@ -287,7 +287,7 @@ section p *{
 
 .button-19:disabled {
   cursor: auto;
-=======
+}
 * {
     padding:0;
     margin:0;
@@ -576,5 +576,23 @@ section p *{
 
 .button-19:disabled {
   cursor: auto;
->>>>>>> 62d654b4fd73a73444f1a218da86e4c3f85c0ca4
+ left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
 }
